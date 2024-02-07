@@ -1,1 +1,35 @@
-<p>custom-form works!</p>
+<form [formGroup]="DatosContactoForm">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <label >Nombre</label>
+                    <div class="col">
+                        <input type="text" formcontrolname="nombre">
+                    </div>
+                    <label >Primer Apellido</label>
+                    <div class="col">
+                        <input type="text" formcontrolname="apellido1" >
+                    </div>
+                    <label >Segundo Apellido </label>
+                    <div class="col">
+                        <input type="text" formcontrolname="apellido2">
+                    </div>
+                    <label for="nombre">Doc Identificación</label>
+                    <div class="col">
+                        <input type="text"  formcontrolname="documento">
+                    </div>
+                    <label for="nombre">Sexo</label>
+                    <div class="col">
+                        <input type="text"  formcontrolname="documento">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                
+                    
+            </div>
+        </div>
+    </div>
+</form>
+
